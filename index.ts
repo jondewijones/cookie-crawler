@@ -18,7 +18,7 @@ const getCookiesFromPage = async() => {
                     const page = await browser.newPage();
                     console.log(`navigating to ${url} ...`)
                     await page.goto(url);
-                    await page.screenshot({path: index+'.png'});
+                    //await page.screenshot({path: index+'.png'});
                     const data = await page._client.send('Network.getAllCookies'); 
                     await browser.close();
                     resolve(data.cookies)
