@@ -6,13 +6,18 @@
   "dependencies": {
     "array-flatten": "^3.0.0",
     "console.table": "^0.10.0",
-    "puppeteer": "^2.1.0",
-    "file-system": "^2.2.2"
+    "file-system": "^2.2.2",
+    "p-limit": "^2.3.0",
+    "p-queue": "^6.3.0",
+    "puppeteer": "^2.1.1"
   },
   "devDependencies": {
     "@types/node": "^13.5.2",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5",
+    "@types/p-queue": "^3.2.1",
+    "@types/puppeteer": "^2.0.1",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
